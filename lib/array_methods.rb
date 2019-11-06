@@ -1,4 +1,4 @@
-def find_element_index(array=[],value_to_find)
+def find_element_index(array=[],value_to_find=0)
 
   array.each do |value|
     value_to_find = array[value]
