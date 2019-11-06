@@ -1,4 +1,4 @@
-def find_element_index(array=[],value_to_find=0)
+def find_element_index(array=[],value_to_find)
 
   array.each do |value|
     if value_to_find == scale[value]
