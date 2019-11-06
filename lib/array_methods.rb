@@ -3,7 +3,7 @@ def find_element_index(array=[],value_to_find=0)
   array.each do |value|
     if value_to_find == scale[value]
      return value_to_find
-   else 
+   else
      return nil
 
 
