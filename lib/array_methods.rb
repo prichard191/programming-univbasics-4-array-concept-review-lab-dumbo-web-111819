@@ -1,9 +1,15 @@
 def find_element_index(array=[],value_to_find=0)
 
   array.each do |value|
-    value_to_find = array[value]
+    if value_to_find == scale[value]
+     return value_to_find
+   else 
+     return nil
+
+
+    #value_to_find = array[value]
   end
-  value_to_find
+  #value_to_find
 
 end
 # Add your solution here
